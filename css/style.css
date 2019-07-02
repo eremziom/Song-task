@@ -1,0 +1,38 @@
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-size: 16px;
+line-height: 1.2;
+color: blue;
+font-family: "Inconsolata", monospace;
+background-color: lightgray;
+}
+
+.container {
+max-width: 1140px;
+padding: 0 20px;
+margin: 0 auto;
+}
+
+section {
+padding: 30px 0;
+}
+
+.main-title {
+    padding-bottom: 0;
+    margin: 0 auto;
+    font-size: 46px;
+}
+
+.main-subtitle {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.main-part {
+    color: darkblue;
+}
